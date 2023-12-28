@@ -29,6 +29,24 @@ header {
     margin-left: auto;
 }
 
+button[type="submit"]:hover {
+  background-color: #45a049; /* Change the background color on hover */
+}button[type="submit"] {
+    background-color: #beaea0; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+    padding: 10px 20px; /* Add padding around the button */
+    text-align: center; /* Center the text horizontally */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer; /* Add a cursor hover effect */
+    border-radius: 4px; /* Round the button corners */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #beaea0; /* Change the background color on hover */
+  }
 .navigation a{
     color: #ffffff;
     text-decoration: none;
@@ -175,6 +193,7 @@ section {
   }
   
   #registration-form input[type="submit"] {
+    
     background-color: #beaea0; /* Match your header color */
     color: #fff;
     padding: 10px 20px;
