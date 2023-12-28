@@ -1,32 +1,36 @@
+/* Set styles for the main container */
 .main {
-    padding: 20px;
-    font-family: 'Helvetica', serif;
-    box-shadow: 5px 5px 7px 5px #888888;
+    padding: 20px; /* Add padding around the content */
+    font-family: 'Helvetica', serif; /* Set the font family */
+    box-shadow: 5px 5px 7px 5px #888888; /* Add a box shadow */
 }
 
+/* Styles for the heading within the main container */
 .main h1 {
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Helvetica', serif;
+    font-size: 40px; /* Set the font size to 40 pixels */
+    text-align: center; /* Center align the heading */
+    font-family: 'Helvetica', serif; /* Set the font family */
 }
 
+/* Styles for input elements */
 input {
-    font-family: 'Helvetica', serif;
-    width: 100%;
-    font-size: 20px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: none;
-    border-bottom: 2px solid #767474;
+    font-family: 'Helvetica', serif; /* Set the font family */
+    width: 100%; /* Set the width to 100% of the parent container */
+    font-size: 20px; /* Set the font size to 20 pixels */
+    padding: 12px 20px; /* Add padding inside the input field */
+    margin: 8px 0; /* Add margin around the input field */
+    border: none; /* Remove the border */
+    border-bottom: 2px solid #767474; /* Add a bottom border with color #767474 */
 }
 
+/* Styles for the submit button */
 input[type=submit] {
-    font-family: 'Helvetica', serif;
-    width: 100%;
-    background-color: #767474;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    margin: 4px 2px;
-    border-radius: 10px;
+    font-family: 'Helvetica', serif; /* Set the font family */
+    width: 100%; /* Set the width to 100% of the parent container */
+    background-color: #767474; /* Set the background color to #767474 */
+    border: none; /* Remove the border */
+    color: white; /* Set the text color to white */
+    padding: 16px 32px; /* Add padding inside the button */
+    margin: 4px 2px; /* Add margin around the button */
+    border-radius: 10px; /* Add border-radius to give a rounded appearance */
 }
